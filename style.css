@@ -1,0 +1,186 @@
+/*
+Theme Name: ooglykraken
+Author: Ian Ford
+Author URI: index.html
+Version: 1.0
+*/
+
+p{ 
+	line-height: 1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: green;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+
+h1{
+	font-size: 1.7em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+a{
+	color: green;
+	text-decoration: none;
+}
+
+a:hover,
+a:active{
+	color: light-green;
+	text-decoration: underline;
+}
+
+body{
+	font-family: arial;
+	font-size: 90%;
+	line-height: 1.2em;
+	width: 100%;
+	margin: 0;
+	background #eee;
+}
+
+.clearfix:after{
+	display: block;
+	clear: both;
+}
+
+/* Page ID */
+#page{
+	margin: 20px;
+}
+
+/* Logo ID */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+
+/* Navigation ID */
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin: 0px auto;
+}
+
+#nav li{
+	margin: 0px;
+	list-style: none;
+	margin: 0px 4px;
+}
+
+#nav a{
+	transition: all linear .15s;
+	color: light-green;
+}
+
+#nav ul li{
+	position: relative;
+	display: inline-block;
+	height: 45px;
+
+}
+
+#nav ul li a{
+	padding: 20px;
+	background: green;
+	color: white;
+	display: inline-block;
+	padding: 10px 40px;
+	display: inline-block;
+}
+
+#nav ul li a:hover{
+	background-color: light-green;
+	box-shadow: 0px 1px 1px #666;
+}
+
+#nav ul li a:active{
+	background-color: blue;
+}
+
+#nav li:hover #DropDown{
+	z-index: 1;
+	opacity: 1;
+}
+
+#nav li:hover > a, #nav #CurrentItem > a{
+	text-decoration: none;
+	background-color: limegreen;
+}
+
+/* Drop Down */
+#DropDown{
+	width: 80%;
+	padding: 0px 0px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+	transition: opacity linear .15s;
+}
+
+#DropDown li{
+	display: block;
+	width: 100%;
+}
+
+#DropDown li a{
+	padding: 10px 30px;
+	display: block;
+}
+
+#DropDown li a:hover, #DropDown #CurrentItem a{
+	background: LimeGreen;
+}
+
+/* Content ID */	
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+
+#content, ul li a{
+	box-shadow: 0px 1px 1px #999
+}
+
+/* Footer ID */
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+
+#footer p{
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 80%;
+	color: grey;
+}
+
+/* About Image */
+#aboutImg{
+	padding: 5px;
+	margin: 10px 100px;
+	float: left;
+}
+
+/* Resume Display */
+#Resume{
+	padding: 10px;
+	margin: 20px 300px;
+}
+
+/* Game Description */
+.GameDescription{	
+}
