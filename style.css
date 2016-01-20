@@ -69,13 +69,12 @@ body{
 
 /* Page ID */
 #page{
-	margin: 30px;
+	margin: 40px;
 }
 
 /* Logo ID */
 #logo{
-	width: 30%;
-	margin-top: 5px;
+	margin: 10px 0px 0px 30px;
 	font-family: georgia;
 	display: inline-block;
 	font-size: 200%;
