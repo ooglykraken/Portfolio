@@ -17,22 +17,40 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-	font-size: 1.7em;
+	font-size: 2.4em;
+	color: #0B610B;
 }
 
 h2{
 	font-size: 1.5em;
 }
 
-a{
-	color: green;
+h2 a{
 	text-decoration: none;
 }
 
-a:hover,
-a:active{
-	color: light-green;
+h3 a:hover{
+	color: mediumblue;
+	text-decoration: none;
+}
+
+a{
+	color: green;
 	text-decoration: underline;
+}
+
+a:hover{
+	color: mediumblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:active{
+	color: seagreen;
+}
+
+a:visited{
+	color: blueviolet;
 }
 
 body{
@@ -51,7 +69,7 @@ body{
 
 /* Page ID */
 #page{
-	margin: 20px;
+	margin: 30px;
 }
 
 /* Logo ID */
@@ -60,6 +78,12 @@ body{
 	margin-top: 5px;
 	font-family: georgia;
 	display: inline-block;
+	font-size: 200%;
+}
+
+#logo a:hover{
+	font-weight: normal;
+	color: mediumblue;
 }
 
 /* Navigation ID */
@@ -78,13 +102,16 @@ body{
 #nav a{
 	transition: all linear .15s;
 	color: light-green;
+	text-decoration: none;
+	font-size: 140%;
 }
 
 #nav ul li{
 	position: relative;
 	display: inline-block;
 	height: 45px;
-	padding: 7px 5px;
+	padding: 10px;
+	margin: 0px;
 }
 
 #nav ul li a{
@@ -93,11 +120,13 @@ body{
 	display: inline-block;
 	padding: 10px 40px;
 	display: inline-block;
+	text-decoration: normal;
 }
 
 #nav ul li a:hover{
 	background-color: light-green;
 	box-shadow: 0px 1px 1px #666;
+	font-weight: normal;
 }
 
 #nav ul li a:active{
@@ -129,11 +158,14 @@ body{
 #DropDown li{
 	display: block;
 	width: 100%;
+	margin: 3px 0px;
+	padding: 3px 0px;
 }
 
 #DropDown li a{
 	padding: 10px 30px;
 	display: block;
+	font-size: 110%;
 }
 
 #DropDown li a:hover, #DropDown #CurrentItem a{
@@ -142,7 +174,7 @@ body{
 
 /* Content ID */	
 #content{
-	margin: 30px 0;
+	margin: 20px 0;
 	background: white;
 	padding: 20px;
 	clear: both;
@@ -168,7 +200,7 @@ body{
 /* About Image */
 #aboutImg{
 	padding: 5px;
-	margin: 10px 100px;
+	margin: 0px 30px 60px 30px;
 	float: left;
 }
 
@@ -176,6 +208,15 @@ body{
 #Resume{
 }
 
+/* Numbering */
+#numbering{
+	float: left;
+	font-weight: bold;
+	margin: 3px 5px 0px 0px;
+	font-size: 120%;
+}
+
 /* Game Description */
 .GameDescription{	
 }
+
