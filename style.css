@@ -10,7 +10,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, h6{
-	color: green;
+	color: darkblue;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-size: 2.4em;
-	color: #0B610B;
+	color: darkblue;
 }
 
 h2{
@@ -35,31 +35,31 @@ h2, h3 a:hover{
 }
 
 a{
-	color: green;
+	color: blue;
 	text-decoration: underline;
 }
 
 a:hover{
-	color: mediumblue;
+	color: lightskyblue;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 a:active{
-	color: seagreen;
+	color: darkblue;
 }
 
 a:visited{
-	color: #006666;
+	color: indigo;
 }
 
 body{
-	font-family: arial;
+	font-family: verdana;
 	font-size: 90%;
 	line-height: 1.2em;
-	width: 100%;
+
 	margin: 0;
-	background #eee;
+	background: #eee;
 }
 
 .clearfix:after{
@@ -82,12 +82,17 @@ body{
 
 #logo a:hover{
 	font-weight: normal;
-	color: mediumblue;
+	color: lightskyblue;
+}
+
+#logoLink{
+	color: darkblue;
+	text-decoration: none;
 }
 
 /* Navigation ID */
 #nav{
-	width: 70%;
+	width: 60%;
 	display: inline-block;
 	text-align: right;
 	float: right;
@@ -100,7 +105,7 @@ body{
 
 #nav a{
 	transition: all linear .15s;
-	color: light-green;
+	color: light-blue;
 	text-decoration: none;
 	font-size: 140%;
 }
@@ -114,16 +119,16 @@ body{
 }
 
 #nav ul li a{
-	background: green;
+	background: darkblue;
 	color: white;
 	display: inline-block;
-	padding: 10px 40px;
+	padding: 10px 20px;
 	display: inline-block;
 	text-decoration: normal;
 }
 
 #nav ul li a:hover{
-	background-color: light-green;
+	background-color: light-blue;
 	box-shadow: 0px 1px 1px #666;
 	font-weight: normal;
 }
@@ -139,10 +144,10 @@ body{
 
 #nav li:hover > a, #nav #CurrentItem > a{
 	text-decoration: none;
-	background-color: limegreen;
+	background-color: dodgerblue;
 }
 
-/* Drop Down */
+/* Drop Down 
 #DropDown{
 	width: 80%;
 	padding: 0px 0px;
@@ -174,7 +179,7 @@ body{
 #DropDown li a:hover, #DropDown #CurrentItem a{
 	background: LimeGreen;
 }
-
+*/
 /* Content ID */	
 #content{
 	margin: 20px 0;
@@ -203,7 +208,7 @@ body{
 /* About Image */
 #aboutImg{
 	padding: 5px;
-	margin: 0px 30px 60px 30px;
+	margin: 0px 30px 40px 30px;
 	float: left;
 }
 
@@ -217,6 +222,15 @@ body{
 	font-weight: bold;
 	margin: 3px 5px 0px 0px;
 	font-size: 120%;
+	color: darkblue;
+}
+
+#gameTitle{
+	color: darkblue;
+}
+
+#contactIcon{
+	padding-left: 12px;
 }
 
 /* Game Description */
