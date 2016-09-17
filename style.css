@@ -75,7 +75,7 @@ body{
 /* Logo ID */
 #logo{
 	margin: 10px 0px 0px 30px;
-	font-family: georgia;
+	font-family: verdana;
 	display: inline-block;
 	font-size: 200%;
 }
@@ -215,8 +215,10 @@ body{
 /* Banner for index.html */
 #indexBanner{
 	padding: 5px;
-	margin-left: 15%;
+	margin-left: 10%;
 	float: center;
+	height: 80%;
+	width: 80%;
 }
 
 /* Resume Display */
