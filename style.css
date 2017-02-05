@@ -192,9 +192,15 @@ body{
 }
 
 #projectBanner{
-	margin-left: 7%;
-	height: 85%;
-	width: 85%;
+	margin-left: 13%;
+	height: 75%;
+	width: 75%;
+}
+
+#popupImg{
+	margin-left: 25%;
+	width: 50%;
+	height: 50%;
 }
 
 #gameTitle{
@@ -259,7 +265,7 @@ body{
 
 .projectButton {
   font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-size: 40px;
   padding: 7px 10px;
   border: 5px solid #182C70;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
@@ -343,11 +349,6 @@ body{
 }
 .popup .popupContent {
   overflow: hidden;
-}
-
-.popup img{
-	width: 100%;
-	height: 100%;
 }
 
 .popup p {
