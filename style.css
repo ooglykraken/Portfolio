@@ -5,12 +5,18 @@ Author URI: index.html
 Version: 1.0
 */
 
+/* Pia http://www.colourlovers.com/palette/4434686/pia*/
+/*
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 p{ 
 	line-height: 1em;
 }
 
 h1, h2, h3, h4, h5, h6{
-	color: darkblue;
+	color: #182C70;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -18,48 +24,44 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-size: 2.4em;
-	color: darkblue;
+	color: #182C70;
 }
 
 h2{
 	font-size: 1.5em;
+	color: #182C70;
 }
 
 h2 a{
 	text-decoration: none;
 }
 
-h2, h3 a:hover{
-	color: mediumblue;
-	text-decoration: none;
-}
-
 a{
-	color: blue;
+	color: #0917B7;
 	text-decoration: underline;
 }
 
 a:hover{
-	color: lightskyblue;
+	color: #739ECE;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 a:active{
-	color: darkblue;
+	color: #182C70;
 }
 
-a:visited{
-	color: indigo;
+img:hover{
+	
 }
 
 body{
-	font-family: verdana;
-	font-size: 90%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 110%;
 	line-height: 1.2em;
-
+	color: #182C70;
 	margin: 0;
-	background: #eee;
+	background: #FAFAFA;
 }
 
 .clearfix:after{
@@ -75,18 +77,18 @@ body{
 /* Logo ID */
 #logo{
 	margin: 10px 0px 0px 30px;
-	font-family: verdana;
+	font-family: 'Roboto', sans-serif;
 	display: inline-block;
 	font-size: 200%;
 }
 
 #logo a:hover{
 	font-weight: normal;
-	color: lightskyblue;
+	color: #739ECE;
 }
 
 #logoLink{
-	color: darkblue;
+	color: #182C70;
 	text-decoration: none;
 }
 
@@ -105,7 +107,7 @@ body{
 
 #nav a{
 	transition: all linear .15s;
-	color: light-blue;
+	color: #739ECE;
 	text-decoration: none;
 	font-size: 140%;
 }
@@ -119,8 +121,8 @@ body{
 }
 
 #nav ul li a{
-	background: darkblue;
-	color: white;
+	background: #182C70;
+	color: #FFFCF3;
 	display: inline-block;
 	padding: 10px 20px;
 	display: inline-block;
@@ -128,13 +130,13 @@ body{
 }
 
 #nav ul li a:hover{
-	background-color: light-blue;
+	background-color: #739ECE;
 	box-shadow: 0px 1px 1px #666;
 	font-weight: normal;
 }
 
 #nav ul li a:active{
-	background-color: blue;
+	background-color: #0917B7;
 }
 
 #nav li:hover #DropDown{
@@ -144,46 +146,12 @@ body{
 
 #nav li:hover > a, #nav #CurrentItem > a{
 	text-decoration: none;
-	background-color: dodgerblue;
+	background-color: #739ECE;
 }
 
-/* Drop Down 
-#DropDown{
-	width: 80%;
-	padding: 0px 0px;
-	position: absolute;
-	top: 100%;
-	left: 0px;
-	z-index: -1;
-	opacity: 0;
-	transition: opacity linear .15s;
-}
-
-#DropDown li{
-	display: block;
-	width: 100%;
-	margin: 3px 0px;
-	padding: 3px 0px;
-	left: 15px;
-}
-
-#DropDown li a{
-	width: 60%;
-	margin: 0px;
-	padding: 10px 0px;
-	display: block;
-	font-size: 110%;
-	text-align: center;
-}
-
-#DropDown li a:hover, #DropDown #CurrentItem a{
-	background: LimeGreen;
-}
-*/
-/* Content ID */	
 #content{
 	margin: 20px 0;
-	background: white;
+	background: #EDEEF1;
 	padding: 20px;
 	clear: both;
 }
@@ -202,7 +170,11 @@ body{
 	text-align: right;
 	text-transform: uppercase;
 	font-size: 80%;
-	color: grey;
+	color: #020616;
+}
+
+#footer p span{
+	color: #739ECE;
 }
 
 /* About Image */
@@ -214,35 +186,174 @@ body{
 
 /* Banner for index.html */
 #indexBanner{
-	padding: 5px;
-	margin-left: 10%;
-	float: center;
-	height: 80%;
-	width: 80%;
+	margin-left: 5%;
+	height: 90%;
+	width: 90%;
 }
 
-/* Resume Display */
-#Resume{
-}
-
-/* Numbering */
-#numbering{
-	float: left;
-	font-weight: bold;
-	margin: 3px 5px 0px 0px;
-	font-size: 120%;
-	color: darkblue;
+#projectBanner{
+	margin-left: 7%;
+	height: 85%;
+	width: 85%;
 }
 
 #gameTitle{
-	color: darkblue;
+	color: #182C70;
 }
 
 #contactIcon{
 	padding-left: 12px;
 }
 
-/* Game Description */
-.GameDescription{	
+/* Image Inspector */
+
+#imgPopupBackground{
+	position: relative;	
+	z-index: 0;
 }
 
+#imgPopupBackground img{
+	position: relative;
+	width: 30%;
+	height: 30%;
+	margin: 0px 5px;
+}
+
+#imgPopupBackground:hover{
+	z-index: 50;
+	cursor: default;
+}
+
+#imgPopupBackground span{
+	position: absolute;
+	background-color: #E0E1E3;
+	visibility: hidden;
+	color: #182C70;
+	left: -30%;
+	margin: 0px 5px 5px 5px;
+	padding: 10px 0px 5px 0px;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #182C70;
+}
+
+#imgPopupBackground span img{
+	padding: 4px;
+	width: 90%;
+	height: 90%;
+}
+
+#imgPopupBackground:hover span{
+	visibility: visible;
+	top: 0;
+	width: 180%;
+}
+
+
+/* Popups : adapted from https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
+#wrapper {
+  width: 100%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.projectButton {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  padding: 7px 10px;
+  border: 5px solid #182C70;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  color: #182C70;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #fff;
+  transition: all 0.2s ease-out;
+}
+
+.projectButton:hover {
+	background-color: #182C70;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	color: #FFFCF3;
+}
+
+.projectButton:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
+}
+
+.popupOverlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 55;
+}
+.popupOverlay .light {
+  background: rgba(255, 255, 255, 0.5);
+}
+.popupOverlay .cancel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+.popupOverlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #666;
+  width: 85%;
+  height: 85%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 60;
+}
+.light .popup {
+  border-color: #aaa;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+.popup h2 {
+  margin-top: 0;
+	text-align: center;
+	color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.popup .close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+}
+.popup .close:hover {
+  opacity: 1;
+}
+.popup .popupContent {
+  overflow: hidden;
+}
+
+.popup img{
+	width: 100%;
+	height: 100%;
+}
+
+.popup p {
+  margin: 0 0 1em;
+}
+
+.popup p:last-child {
+  margin: 0;
+}
