@@ -186,15 +186,15 @@ body{
 
 /* Banner for index.html */
 #indexBanner{
-	margin-left: 5%;
-	height: 90%;
-	width: 90%;
+	margin-left: 7%;
+	height: 85%;
+	width: 85%;
 }
 
 #projectBanner{
-	margin-left: 13%;
-	height: 75%;
-	width: 75%;
+	margin-left: 25%;
+	height: 50%;
+	width: 50%;
 }
 
 #popupImg{
@@ -209,6 +209,37 @@ body{
 
 #contactIcon{
 	padding-left: 12px;
+}
+
+/* Project ul stats */
+
+#projectStats{
+	width: 100%;
+	margin: 0 0 0 5%;
+	display: inline-block;
+}
+
+#projectStats h2{
+	font-size: 130%;
+	margin: 1% 0 2% 10%;
+}
+
+#projectStats p{
+	padding: 4px;
+	margin: 4px;
+	font-size: 110%;
+}
+
+#leftStats{
+	float: left;
+	margin-left: 22%;
+	margin-right: 0%;
+}
+
+#rightStats{
+	margin-left: 1%;
+	float: right;
+	margin-right: 30%;
 }
 
 /* Image Inspector */
@@ -348,7 +379,7 @@ body{
   opacity: 1;
 }
 .popup .popupContent {
-  overflow: hidden;
+  overflow: automatic;
 }
 
 .popup p {

@@ -37,7 +37,7 @@
 				<br />
 				
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupKatabasis" style="margin-left: 33%;">Katabasis</a></p>
+					<p><a class="projectButton" href="#popupKatabasis" style="margin-left: 39%;">Katabasis</a></p>
 				</div>
 				<div id="popupKatabasis" class="popupOverlay light">
 					<a class="cancel" href="#"></a>
@@ -55,16 +55,35 @@
 				<br />
 				
 				<img src="Images/Games/MeetingTheLantern.png" id="projectBanner"/>
-						
+					
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						Katabasis is a puzzle based adventure game with a whimsically dark style taking the players through the five stages of grief.
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: PC</p>
+						<p>&bull; Status: Unreleased </p>
+						<p>&bull; Role: project lead, designer, programmer</p>
+						<p>&bull; Tools Used: Unity3D, Github</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: 6 others</p>
+						<p>&bull; Production Time: 2+ years  &</p>
+						<p>&bull; Personal Time: 100+ hrs.</p>
+						<p>&bull; Links: itch.io <a href="http://ooglykraken.itch.io/katabasis">page</a>, download, <a href="http://ooglykraken.github.io/WebBuilds/Katabasis">browser play</a></p>
+					</div>
+				</div>
+
+				
 				<br />
 				<br />
 				<a name="ww"></a>
-				<hr color="#182C70"/>
+				<hr color="#182C70" style="clear: both;" />
 				<br />
 				<br />
 				
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupWW" style="margin-left: 31%;">Water Works</a></p>
+					<p><a class="projectButton" href="#popupWW" style="margin-left: 37%;">Water Works</a></p>
 				</div>
 				<div id="popupWW" class="popupOverlay light">
 					<a class="cancel" href="#"></a>
@@ -89,16 +108,34 @@
 				<br />
 				
 				<img src="Images/Games/Introduction.png" id="projectBanner"/>
-										
+				
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						WaterWorks is simulation game putting players in control of water infrastructure to supply a growing community. Players should walk away with better understanding of modern water purification and distribution.
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: Web</p>
+						<p>&bull; Status: unfinished </p>
+						<p>&bull; Role: programmer</p>
+						<p>&bull; Tools Used: Unity3D, Github, XML, Slack</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: 10+ others</p>
+						<p>&bull; Production Time: 3+ years  &</p>
+						<p>&bull; Personal Time: 100+ hrs.</p>
+						<p>&bull; Links: <a href="http://waterworks.indiana.edu/water/index.html">play here</a></p>
+					</div>
+				</div>
+				
 				<br />
 				<br />
 				<a name="zerowing"></a>
-				<hr color="#182C70"/>
+				<hr color="#182C70" style="clear: both;" />
 				<br />
 				<br />
 				
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupZeroWing" style="margin-left: 33%;">Zero Wing</a></p>
+					<p><a class="projectButton" href="#popupZeroWing" style="margin-left: 39%;">Zero Wing</a></p>
 				</div>
 				<div id="popupZeroWing" class="popupOverlay light">
 					<a class="cancel" href="#"></a>
@@ -106,10 +143,14 @@
 						<h2>Zero Wing</h2><a class="close" href="#zerowing">&times;</a>
 						<div class="popupContent">
 							<p>
-							Zero Wing was a project given to me by Seven Jets Games. I was given 30 days to build the game and it was published on the Google Play store on 2/23/16. This is a 2d horizontal shoot'em up. I was given all the art, sounds/music, and a general idea of design I just had to put it all together and setup the Android APK. The game can be found <a href="https://play.google.com/store/apps/details?id=com.SevenJets.ZeroWing" target="_blank">here</a>.
+							I was contracted by Seven Jets Games to develop this game in a month. Max, my contact at Seven Jets, told me the game was a sidescrolling shooter that grew in difficulty for four minutes. At four minutes it was supposed to be extremely difficult for the player to survive. First I was asked to propose a plan for development over the 30 day work time. I sent my proposal and immediately began working after getting the ‘ok’.
 							</p>
 							<p>
-							This is a Unity3D game so in order to play it in-browser please open the link in Firefox....or Internet Explorer if that's your thing.
+							Immediately I started with the player character. The next day I was given most of the art, sound effects, and UI. In favor of creating a Minimum Viable Product before following my proposal exactly I added some of these basic art assets. Next I designed and programmed several enemy behaviors. By the end of the first week I had the player character, the scrolling background, and three enemies in the game. Because of our time difference I provided updates to Max in small videos with commentary detailing each aspect of the game I had worked on. He provided feedback and I adjusted my work around it.</p>
+							<p>
+							Planning the enemy spawning system was the first thing I started in week two. Since the difficulty had a cap at four minutes I used the game’s run time % 240 seconds to derive what ratio of four minutes the player has survived. I generate a number proportional to this value and run it through a switch of enemy values. Each enemy has a value from 1(easiest) to 100(most difficult), the highest enemy value smaller than the rolled number is deducted from the roll and I go back through the switch again til the role is 0. After getting most of this done I finished the rest of the enemies to test the spawning more thoroughly.</p>
+							<p>
+							Week three’s priorities were re-doing the scrolling background and adding music which took little time. With all of the enemies in place it became much easier to finish the spawner and debug enemy behaviors. My last day of development I finally got an android device to deploy and test on and I finished all of the UI that day. Then I prepped the Google Play store for release and sent my most current build along to Max.
 							</p>
 							<img src="Images/Games/HailOfBullets.png" id="popupImg"/>
 						</div>
@@ -121,15 +162,33 @@
 				
 				<img src="Images/Games/HailOfBullets.png" id="projectBanner"/>
 
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						Zero Wing is an infinitely horizontally scrolling schooter that grows in difficulty til it's almost impossible after 4 minutes.
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: Android</p>
+						<p>&bull; Status: released </p>
+						<p>&bull; Role: programmer</p>
+						<p>&bull; Tools Used: Unity3D, TinyTake, Dropbox</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: Max Randall</p>
+						<p>&bull; Production Time: one month</p>
+						<p>&bull; Personal Time: 35 hours</p>
+						<p>&bull; Links: Google Play <a href="https://play.google.com/store/apps/details?id=com.SevenJets.ZeroWing&hl=en">page</a>, download, <a href="http://ooglykraken.github.io/WebBuilds/Zero_wing">browser play</a></p>
+					</div>
+				</div>
+				
 				<br />
 				<br />
 				<a name="schmup"></a>
-				<hr color="#182C70"/>
+				<hr color="#182C70" style="clear: both; margin: 5% 0 0 0;" />
 				<br />
 				<br />
 
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupSchmup" style="margin-left: 35%;">Schmup</a></p>
+					<p><a class="projectButton" href="#popupSchmup" style="margin-left: 40%;">Schmup</a></p>
 				</div>
 				<div id="popupSchmup" class="popupOverlay light">
 					<a class="cancel" href="#"></a>
@@ -137,11 +196,18 @@
 						<h2>Schmup</h2><a class="close" href="#schmup">&times;</a>
 						<div class="popupContent">
 							<p>
-							This is called Schmup which is a play on "Shoot'em up". It is a 2d vertical space shooter in the vein of Galaxian though as an infinite runner. As a scout returning from a ranging you are ambushed by the Schmup Empire. You can score points but you probably won't make it home. This game is unique to me because it is something I plan to work on and add to over time. New features in mind are a complete scoring system, boss fights, new weapons, and more intelligent enemy behaviors.
+							Schmup was the first game I finished at Plow during my internship. After about a week of working on a myriad of game demo’s my supervisor asked me to make something with a Sample Project, so I took all the art and sounds and started a new project.  The first thing I worked on was creating the player character, then programming and refining movement. To make things interesting I wrote an attack function for shooting projectiles. This took some effort as it was my first time working with generating projectiles, propelling them in the desired direction, and then reacting with the proper behavior.							
 							</p>
 							<p>
-							This is a Unity3D game so in order to play it in-browser please open the link in Firefox....or Internet Explorer if that's your thing.
+							This is when my supervisor stepped in and had me learn xml so I could create adjustable files for the waves of enemies in the game. So we implemented an XML reader and wrote “waves” in the xml that are numbered and would be randomly spawned when ready. The whole thing runs on an object pool that recycles the background tiles and enemies while the player character flies forward.
 							</p>
+							<p>
+							One thing that was in the sample project were asteroids, I added these and had them damage the player and enemies on hit. At this point the character was dying very quickly so I gave them a three-hit health bar and temporary invulnerability after getting hit. To provide some more layers to the combat I gave the asteroids a random chance to explode over a decent radius. As I had hoped this could chain and wipe out a wave of ships, asteroids, and all. This could also unexpectedly hit the player, to counter this I gave the character a regenerating shield.
+							</p>
+							<p>
+							Now all that was left was to give it some more features like lives which I called “Reassemblies” so as to give in-game meaning to the unrealistic ability of a spaceship to be graced by god with another life, good as new. I call them reassemblies to allude to some sort of futuristic technology that allows the ship to re-assimilate after too much structural damage, the caveat being limited uses (like lives), using nano-technology. Then I added a score system to give some sense of progression for each run. 
+							</p>
+							
 							<img src="Images/Games/SCHMUP2.png" id="popupImg" />
 						</div>
 					</div>
@@ -152,15 +218,33 @@
 				
 				<img src="Images/Games/SCHMUP2.png" id="projectBanner"/>
 
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						Schmup is an infinitely scrolling vertical shooter centered around the intrepid protagonist running into an endless army of Schmups.
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: PC</p>
+						<p>&bull; Status: Unreleased </p>
+						<p>&bull; Role: designer, programmer</p>
+						<p>&bull; Tools Used: Unity3D, XML</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: none</p>
+						<p>&bull; Production Time: 2 weeks</p>
+						<p>&bull; Personal Time: 30 hours</p>
+						<p>&bull; Links: download, <a href="http://ooglykraken.github.io/WebBuilds/Schmup">browser play</a></p>
+					</div>
+				</div>
+				
 				<br />
 				<br />
 				<a name="mariobird"></a>
-				<hr color="#182C70"/>
+				<hr color="#182C70" style="clear: both;" />
 				<br />
 				<br />
 
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupMarioBird" style="margin-left: 33%;">Mario Bird</a></p>
+					<p><a class="projectButton" href="#popupMarioBird" style="margin-left: 38%;">Mario Bird</a></p>
 				</div>
 				<div id="popupMarioBird" class="popupOverlay light">
 					<a class="cancel" href="#"></a>
@@ -182,9 +266,6 @@
 							<p>
 							Then the fun started. Since I keep all of my GameObjects as abstract as possible it was just a matter of adding the song, sprites, and sound effects to the right GameObjects. This way my supervisor could easily adjust and change the game once it was ported into Endless Blitz.
 							</p>
-							<p>
-							Altogether this took me about nine hours to complete.
-							</p>
 							<img src="Images/Games/Tap.png" id="popupImg" />
 						</div>
 					</div>
@@ -194,16 +275,34 @@
 				<br />
 				
 				<img src="Images/Games/Tap.png" id="projectBanner" />
-
+				
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						Mario Bird is my take on FlappyBird but with Mario colored paint (All of the sprites, sfx, and music are from Super Mario World).
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: Android, mobile iOS</p>
+						<p>&bull; Status: released </p>
+						<p>&bull; Role: programmer</p>
+						<p>&bull; Tools Used: Unity3D, Github</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: none</p>
+						<p>&bull; Production Time: one week</p>
+						<p>&bull; Personal Time: 9 hours</p>
+						<p>&bull; Links: download, <a href="http://ooglykraken.github.io/WebBuilds/MarioBird">browser play</a>, <a href="https://play.google.com/store/apps/details?id=com.hhgregg.endlessblitz">Endless Blitz</a></p>
+					</div>
+				</div>
+				
 				<br />
 				<br />
 				<a name="tdd"></a>
-				<hr color="#182C70"/>
+				<hr color="#182C70" style="clear: both;" />
 				<br />
 				<br />
 				
 				<div id="wrapper">
-					<p><a class="projectButton" href="#popupTDD" style="margin-left: 15%;">TDD (Town Defense & Dragons)</a></p>
+					<p><a class="projectButton" href="#popupTDD" style="margin-left: 27%;">TDD (Town Defense & Dragons)</a></p>
 				</div>
 				
 				<div id="popupTDD" class="popupOverlay light">
@@ -229,6 +328,30 @@
 				<br />
 				
 				<img src="Images/Games/Ready.png" id="projectBanner" />
+				
+				<div id="projectStats">
+					<h2 id="elevatorPitch">
+						Town Defense & Dragons is a tower defense game using autonomous D&D style adventurers as the defense units. Compose good teams and they'll grow in strength and you might beat all 20 waves.
+					</h2>
+					<div id="leftStats">
+						<p>&bull; Platform: PC</p>
+						<p>&bull; Status: unreleased prototype </p>
+						<p>&bull; Role: artist, designer, programmer</p>
+						<p>&bull; Tools Used: Unity3D, XML</p>
+					</div>
+					<div id="rightStats">
+						<p>&bull; Collaborators: None</p>
+						<p>&bull; Production Time: 5 months</p>
+						<p>&bull; Personal Time: 40 hours</p>
+						<p>&bull; Links: download, <a href="http://ooglykraken.github.io/WebBuilds/TDD">browser play</a></p>
+					</div>
+				</div>
+				
+				<br />
+				<br />
+				<hr color="#182C70" style="clear: both;" />
+				<br />
+				<br />
 				
 			</div>
 			<!-- /Content -->
