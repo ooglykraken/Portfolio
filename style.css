@@ -214,6 +214,7 @@ body{
 /* Project ul stats */
 
 #projectStats{
+	position: relative;
 	width: 100%;
 	margin: 0 0 0 5%;
 	display: inline-block;
