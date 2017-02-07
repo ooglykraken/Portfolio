@@ -233,14 +233,14 @@ body{
 
 #leftStats{
 	float: left;
-	margin-left: 20%;
+	margin-left: 18%;
 	margin-right: 0%;
 }
 
 #rightStats{
 	margin-left: 1%;
 	float: right;
-	margin-right: 30%;
+	margin-right: 25%;
 }
 
 /* Image Inspector */
