@@ -222,7 +222,8 @@ body{
 
 #projectStats h2{
 	font-size: 130%;
-	margin: 1% 0 2% 10%;
+	width: 80%;
+	margin: 1% 0 0 10%;
 }
 
 #projectStats p{
