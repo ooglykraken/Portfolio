@@ -36,6 +36,10 @@ h2 a{
 	text-decoration: none;
 }
 
+h3 p{
+	font-size: 120%;
+}
+
 a{
 	color: #0917B7;
 	text-decoration: underline;
@@ -186,9 +190,9 @@ body{
 
 /* Banner for index.html */
 #indexBanner{
-	margin: 0 0 0 7%;
-	height: 85%;
-	width: 85%;
+	margin: 0 0 0 10%;
+	height: 80%;
+	width: 80%;
 }
 
 #projectBanner{
@@ -199,8 +203,8 @@ body{
 
 #popupImg{
 	margin: 0 0 0 25%;
-	width: 50%;
-	height: 50%;
+	width: 40%;
+	height: 40%;
 }
 
 #gameTitle{
@@ -284,6 +288,10 @@ body{
 	visibility: visible;
 	top: 0;
 	width: 180%;
+}
+
+#elevatorPitch {
+	padding: 1%;
 }
 
 
