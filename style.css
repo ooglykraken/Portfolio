@@ -262,12 +262,33 @@ body{
 	font-size: 160%;
 }
 
-#playButton{
+.playButton{
 	position: relative;
 	display: inline-block;
-	width: 100%;
-	margin: 0 0 0 0;
-	
+	width: 7%;
+	margin: 0 0 0 45%;
+	padding: 1%;
+	font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  border: 5px solid #182C70;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  color: #FFFCF3;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #fff;
+  transition: all 0.2s ease-out;
+  background-color: #182C70;
+}
+
+.playButton:hover {
+	background-color: transparent;
+	border-color: #182C70;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	color: #182C70;
+}
+
+.playButton:active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
 }
 
 
