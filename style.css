@@ -59,6 +59,15 @@ img:hover{
 	
 }
 
+ul { 
+    display: block;
+	margin-top: 1%;
+}
+
+li {
+	margin: 1% 0 0 0; 
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 110%;
@@ -217,34 +226,50 @@ body{
 
 /* Project ul stats */
 
-#projectStats{
+#projectContent{
 	position: relative;
 	width: 100%;
 	margin: 0 0 0 5%;
 	display: inline-block;
 }
 
-#projectStats h2{
+#projectContent h2{
 	font-size: 130%;
 	width: 80%;
 	margin: 1% 0 0 10%;
 }
 
-#projectStats p{
+#projectContent p{
 	padding: 4px;
 	margin: 4px;
 	font-size: 100%;
 }
 
-#leftStats{
-	float: left;
-	margin: 0 0 0 18%;
+#elevatorPitch {
+	position: relative;
+	display: inline-block;
+	font-size: 130%;
+	width: 70%;
+	margin: 1% 0 0 15%;
+	padding: 1%;
 }
 
-#rightStats{
-	margin: 0 23% 0 1%;
-	float: right;
+#stats{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	margin: 0 0 0 15%;
+	font-size: 160%;
 }
+
+#playButton{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 0 0;
+	
+}
+
 
 /* Image Inspector */
 
@@ -289,11 +314,6 @@ body{
 	top: 0;
 	width: 180%;
 }
-
-#elevatorPitch {
-	padding: 1%;
-}
-
 
 /* Popups : adapted from https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
 #wrapper {
@@ -354,8 +374,8 @@ body{
   padding: 20px;
   background: #fff;
   border: 1px solid #666;
-  width: 85%;
-  height: 85%;
+  width: 35%;
+  height: 60%;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 60;
@@ -364,11 +384,13 @@ body{
   border-color: #aaa;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
-.popup h2 {
+.popup h1 {
   margin: 0 0 0 0;
 	text-align: center;
 	color: black;
   font-family: 'Roboto', sans-serif;
+  padding: 4%;
+  font-weight: bold;
 }
 .popup .close {
   position: absolute;
