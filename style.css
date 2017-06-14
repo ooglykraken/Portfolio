@@ -266,8 +266,8 @@ body{
 	text-align: center;
 	position: relative;
 	display: inline-block;
-	width: 7%;
-	margin: 0 0 0 45%;
+	width: 10%;
+	margin: 0 0 0 40%;
 	padding: 1%;
 	font-family: 'Roboto', sans-serif;
   font-size: 40px;
@@ -340,7 +340,7 @@ body{
 /* Popups : adapted from https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
 #wrapper {
   width: 100%;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 0%;
   text-align: left;
 }
 
