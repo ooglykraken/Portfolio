@@ -204,49 +204,38 @@ body{
 	width: 80%;
 }
 
-.aboutMe{
+#aboutMe{
 	font-size: 130%
 }
 
+
+.projectTitle{
+	position: relative;
+	width: 30%;
+	margin: 1% 0 1% 30%;
+	padding: 1%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	background-color: #182C70;
+}
+
+.projectTitle p{
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFCF3;
+	padding: 0;
+	margin: 0;
+}
+
 .projectBanner{
-	margin: 0 0 0 25%;
-	height: 50%;
-	width: 50%;
-}
-
-.popupImg{
-	margin: 0 0 0 25%;
+	margin: 4px 0 4px 26%;
 	width: 40%;
-	height: 40%;
-}
-
-.gameTitle{
-	color: #182C70;
 }
 
 .contactIcon{
 	padding-left: 12px;
-}
-
-/* Project ul stats */
-
-.projectContent{
-	position: relative;
-	width: 100%;
-	margin: 0 0 0 5%;
-	display: inline-block;
-}
-
-.projectContent h2{
-	font-size: 130%;
-	width: 80%;
-	margin: 1% 0 0 10%;
-}
-
-.projectContent p{
-	padding: 4px;
-	margin: 4px;
-	font-size: 100%;
 }
 
 .elevatorPitch {
@@ -258,12 +247,36 @@ body{
 	padding: 1%;
 }
 
-.stats{
+.projectStats{
 	position: relative;
 	width: 100%;
-	display: inline-block;
-	margin: 0 0 0 15%;
+	display: block;
+	margin: 0 0 0 26%;
 	font-size: 160%;
+	padding: 0 ;
+}
+
+.projectStats p{
+	position: relative;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 80%;
+}
+
+.columnOne{
+	position: relative;
+	float: left;
+	margin: 0 0 0 0;
+	width: 25%;
+	padding: 0;
+}
+
+.columnTwo{
+	width: 25%;
+	position: relative;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0;
 }
 
 .playButton{
@@ -274,15 +287,15 @@ body{
 	margin: 0 0 0 40%;
 	padding: 1%;
 	font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  border: 5px solid #182C70;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  color: #FFFCF3;
-  text-decoration: none;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #fff;
-  transition: all 0.2s ease-out;
-  background-color: #182C70;
+	font-size: 40px;
+	border: 5px solid #182C70;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	color: #FFFCF3;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #fff;
+	transition: all 0.2s ease-out;
+	background-color: #182C70;
 }
 
 .playButton:hover {
@@ -294,112 +307,4 @@ body{
 
 .playButton:active {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
-}
-
-
-
-
-/* Popups : adapted from https://eichefam.net/2011/12/21/popup-windows-without-javascript/ */
-.wrapper {
-  width: 100%;
-  margin: 0 0 0 0%;
-  text-align: left;
-}
-
-.projectButton {
-  font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  padding: 7px 10px;
-  border: 5px solid #182C70;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  color: #182C70;
-  text-decoration: none;
-  font-weight: bold;
-  text-shadow: 0 1px 0 #fff;
-  transition: all 0.2s ease-out;
-}
-
-.projectButton:hover {
-	background-color: #182C70;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-	color: #FFFCF3;
-}
-
-.projectButton:active {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset;
-}
-
-.popupOverlay {
-  position: absolute;
-  background: rgba(0, 0, 0, 0.5);
-  transition: opacity 200ms;
-  visibility: hidden;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 55;
-}
-.popupOverlay .light {
-  background: rgba(255, 255, 255, 0.5);
-}
-.popupOverlay .cancel {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  cursor: default;
-}
-.popupOverlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 75px auto;
-  padding: 20px;
-  background: #fff;
-  border: 1px solid #666;
-  width: 50%;
-  height: 80%;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  position: relative;
-  z-index: 60;
-}
-.light .popup {
-  border-color: #aaa;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
-}
-.popup h1 {
-  margin: 0 0 0 0;
-	text-align: center;
-	color: black;
-  font-family: 'Roboto', sans-serif;
-  padding: 4%;
-  font-weight: bold;
-}
-.popup .close {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 20px;
-  right: 20px;
-  opacity: 0.8;
-  transition: all 200ms;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #666;
-}
-.popup .close:hover {
-  opacity: 1;
-}
-.popup .popupContent {
-  overflow: automatic;
-}
-
-.popup p {
-  margin: 0 0 1em;
-}
-
-.popup p:last-child {
-  margin: 0;
 }
