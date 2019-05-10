@@ -75,6 +75,7 @@ body{
 	color: #182C70;
 	margin: 0;
 	background: #FAFAFA;
+	overflow-x: hidden;
 }
 
 .clearfix:after{
@@ -163,7 +164,7 @@ body{
 }
 
 #content{
-	margin: 20px 0;
+	margin: 20px;
 	background: #EDEEF1;
 	padding: 20px;
 	clear: both;
@@ -208,7 +209,6 @@ body{
 	font-size: 130%
 }
 
-
 .projectTitle{
 	position: relative;
 	width: 30%;
@@ -218,7 +218,19 @@ body{
 	background-color: #182C70;
 }
 
-.projectTitle p{
+.projectTitle h2{
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFCF3;
+	padding: 0;
+	margin: 0;
+}
+
+.projectTitle h3{
+	width: 100%;
 	font-weight: bold;
 	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
@@ -242,6 +254,7 @@ body{
 	position: relative;
 	display: inline-block;
 	font-size: 130%;
+	line-height: 140%;
 	width: 70%;
 	margin: 1% 0 0 15%;
 	padding: 1%;
